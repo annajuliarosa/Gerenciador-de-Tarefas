@@ -6,7 +6,6 @@ export function PagPrincipal() {
   const [tarefa2, setTarefa2] = useState([]);
 
   const [novoEstado, setNovoEstado] = useState();
-  //   const [selecionado, setSelecionado] = useState(false)
 
   const novaTarefa = {
     name: tarefa,
@@ -27,7 +26,7 @@ export function PagPrincipal() {
       return acha.name == i;
     });
 
-    const novo = [...tarefa2];
+    const novo = [tarefa2];
 
     novo[acharIndex].checkado = !novo[acharIndex].checkado;
 
