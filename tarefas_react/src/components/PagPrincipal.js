@@ -30,6 +30,9 @@ export function PagPrincipal() {
     const novo = [...tarefa2];
 
     novo[acharIndex].checkado = !novo[acharIndex].checkado;
+
+    // Adicionado a linha setTarefa2(novo) para atualizar o estado logo que modifica o Objeto
+    setTarefa2(novo);
   }
 
   function handleChange(e) {
