@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.tudo {
+  background-color: #a0522d;
+  color: #deb887;
+  margin-top: 10%;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 700px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-top: 5%;
+  min-height: 600px;
+  min-width: 600px;
+}
+
+.tudo label,
+input,
+button {
+  margin: 1%;
+  padding: 5px;
+}
+.tudo input,
+button {
+  background-color: #ffdead;
+  border: none;
+  border-radius: 5px;
+}
+
+.tudo .comp {
+  border: 4px dashed black;
+  color: white;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
