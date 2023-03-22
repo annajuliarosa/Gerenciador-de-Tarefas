@@ -51,16 +51,15 @@ export function PagPrincipal() {
             <div className={tar.checkado ? "completed" : " "}>
               <>
                 <label>
-                  <p>{tar.name}</p>
+                  {tar.name}
                   <input type="checkbox" onClick={() => check(tar.name)} />
                 </label>
               </>
             </div>
+            <button className=" " onClick={() => remove(tar.name)}>
+              Excluir
+            </button>
           </div>
-
-          <button className=" " onClick={() => remove(tar.name)}>
-            Excluir
-          </button>
         </>
       ))}
     </div>

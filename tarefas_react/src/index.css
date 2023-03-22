@@ -9,19 +9,19 @@ body {
 }
 
 .tudo {
-  background-color: #a0522d;
-  color: #deb887;
+  background-color: #ffe4e1;
+  color: #8b0000;
   margin-top: 10%;
-  border: 1px solid black;
+  border: 1px solid rgb(197, 136, 136);
+  box-shadow: 2px 2px rgb(197, 136, 136);
   border-radius: 20px;
-  width: 700px;
-  height: 500px;
+  width: 800px;
+  max-height: 100%;
   display: flex;
   align-items: center;
   justify-content: start;
+  flex-direction: column;
   padding-top: 5%;
-  min-height: 600px;
-  min-width: 600px;
 }
 
 .tudo label,
@@ -32,9 +32,10 @@ button {
 }
 .tudo input,
 button {
-  background-color: #ffdead;
+  background-color: #fa8072;
   border: none;
   border-radius: 5px;
+  margin: 2%;
 }
 
 .tudo .comp {
@@ -50,7 +51,10 @@ button {
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
+  border: 3px dashed black;
+  margin-bottom: 4%;
+  padding: 2%;
 }
 
 .completed {
